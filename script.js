@@ -28,6 +28,7 @@
   
         buffer.fillStyle = (map[index] == 1)?"#000000":"#ffffff";
         buffer.fillRect((index % 16) * size, Math.floor(index/16) * size, size, size);
+          //context.fillRect(x, y, width, height);//
   
       }
   
